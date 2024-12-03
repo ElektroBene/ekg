@@ -1,0 +1,10 @@
+* C:\Users\aushilfe\Documents\Schnoerr_Benedikt\th\st_ekg\Draft1.asc
+J1 N002 0 N003 NJF
+R1 N003 0 100k
+V1 N002 0 3
+.model NJF NJF
+.model PJF PJF
+.lib C:\Users\aushilfe\AppData\Local\LTspice\lib\cmp\standard.jft
+.tran 1
+.backanno
+.end
