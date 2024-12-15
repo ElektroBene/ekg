@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "100DP6T1B1M6QEH"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "100DP6T1B1M6QEH")
+        (spec "default")
+    )
+)

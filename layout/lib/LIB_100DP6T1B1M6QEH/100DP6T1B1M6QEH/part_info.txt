@@ -1,0 +1,9 @@
+Manufacturer=E-Switch
+PartNumber=100DP6T1B1M6QEH
+PartCategory=Switch
+PackageCategory=Other
+PinCount=8
+Version=9.4
+Released=2024-02-14 08:24:31
+Downloaded=2024-12-10 08:27:13
+3D=N

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '100DP6T1B1M6QEH'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "E-Switch", "100DP6T1B1M6QEH" (!) = "", "100DP6T1B1M6QEH", "Other", "612-100DP6T1B1M6QEH", "https://www.mouser.co.uk/ProductDetail/E-Switch/100DP6T1B1M6QEH?qs=f57gQzlyLiqJaVfqjUPBDA%3D%3D", "TOGGLE, 5A, 120VAC/28VDC DPDT, On-On-On Panel Mount, Right Angle", "https://configured-product-images.s3.amazonaws.com/2D/specs/100DP6T1B1M6QEH.pdf", "11.43 mm"
+END_PART
+
+END.

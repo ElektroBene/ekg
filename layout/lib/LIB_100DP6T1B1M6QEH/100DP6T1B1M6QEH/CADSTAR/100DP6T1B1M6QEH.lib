@@ -1,0 +1,16 @@
+.100DP6T1B1M6QEH :1 ;TOGGLE, 5A, 120VAC/28VDC DPDT, On-On-On Panel Mount, Right Angle
+"100DP6T1B1M6QEH"
+*STM S
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=MH1 8=MH2
+*PLB 1="NC_1" 2="COM_1" 3="NO_1" 4="NC_2" 5="COM_2" 6="NO_2" 7="MH1" 8="MH2"
+*MXP 8
+*DFN 100DP6T1B1M6QEH
+~!Mouser Part Number (612-100DP6T1B1M6QEH)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/E-Switch/100DP6T1B1M6QEH?qs=f57gQzlyLiqJaVfqjUPBDA%3D%3D)
+~!Manufacturer_Name (E-Switch)
+~!Manufacturer_Part_Number (100DP6T1B1M6QEH)
+~!Link Datasheet (https://configured-product-images.s3.amazonaws.com/2D/specs/100DP6T1B1M6QEH.pdf)
+~!Height (11.43mm)
+"100DP6T1B1M6QEH"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 
