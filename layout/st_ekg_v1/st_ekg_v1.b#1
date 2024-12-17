@@ -1846,7 +1846,6 @@ design rules under a new name.</description>
 <contactref element="R8" pad="1"/>
 <contactref element="R7" pad="1"/>
 <contactref element="IC2" pad="2"/>
-<wire x1="34.29" y1="16.195" x2="34.2875" y2="16.1925" width="0.8128" layer="16"/>
 <wire x1="37.7825" y1="15.875" x2="35.8775" y2="15.875" width="0.8128" layer="16"/>
 <wire x1="35.5575" y1="16.195" x2="34.29" y2="16.195" width="0.8128" layer="16"/>
 <wire x1="35.8775" y1="15.875" x2="35.5575" y2="16.195" width="0.8128" layer="16"/>
@@ -1856,7 +1855,6 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="R7" pad="2"/>
-<wire x1="34.29" y1="18.095" x2="34.2925" y2="18.0975" width="0.8128" layer="16"/>
 <wire x1="37.7825" y1="18.415" x2="35.8775" y2="18.415" width="0.8128" layer="16"/>
 <wire x1="35.5575" y1="18.095" x2="34.29" y2="18.095" width="0.8128" layer="16"/>
 <wire x1="35.8775" y1="18.415" x2="35.5575" y2="18.095" width="0.8128" layer="16"/>
@@ -1944,7 +1942,6 @@ design rules under a new name.</description>
 <contactref element="R13" pad="1"/>
 <contactref element="IC2" pad="7"/>
 <contactref element="C10" pad="1"/>
-<wire x1="34.29" y1="3.495" x2="34.29" y2="3.4925" width="0.8128" layer="16"/>
 <wire x1="37.7825" y1="3.175" x2="35.8775" y2="3.175" width="0.8128" layer="16"/>
 <wire x1="35.5575" y1="3.495" x2="34.29" y2="3.495" width="0.8128" layer="16"/>
 <wire x1="35.8775" y1="3.175" x2="35.5575" y2="3.495" width="0.8128" layer="16"/>
