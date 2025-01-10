@@ -1,0 +1,33 @@
+Circuit: * C:\Users\aushilfe\Documents\Schnoerr_Benedikt\th\st_ekg\st_ekg\schematics\ekg_v5_hardware_switch7.asc
+
+WARNING: Node OUT is floating.
+
+WARNING: Less than two connections to node out.  This node is used by c2.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Gmin = 1000
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 455.111
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 444.636
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 443.336
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Could not converge to DC with sources off!
+Starting source stepping with srcstepmethod=1
+Could not converge to DC with sources off!
+Pseudo Transient failed in finding the operating point at 1.51809 s.
+Trouble finding operating point....skipping operating point for Transient analysis.
