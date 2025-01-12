@@ -8451,6 +8451,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1Meg"/>
+<part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8592,6 +8594,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 </instance>
 <instance part="X_10" gate="G$1" x="99.06" y="147.32" smashed="yes" rot="R270"/>
 <instance part="X_11" gate="G$1" x="101.6" y="121.92" smashed="yes"/>
+<instance part="R15" gate="G$1" x="55.88" y="43.18" smashed="yes">
+<attribute name="NAME" x="52.07" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="39.878" size="1.778" layer="96"/>
+</instance>
+<instance part="X_12" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8833,6 +8840,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <wire x1="60.96" y1="43.18" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<junction x="60.96" y="43.18"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -8964,6 +8973,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="33.02" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <label x="68.58" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="0" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="X_12" gate="G$1" pin="0"/>
 </segment>
 </net>
 </nets>

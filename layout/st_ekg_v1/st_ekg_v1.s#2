@@ -8598,7 +8598,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <attribute name="NAME" x="52.07" y="44.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="39.878" size="1.778" layer="96"/>
 </instance>
-<instance part="X_12" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="R270"/>
+<instance part="X_12" gate="G$1" x="48.26" y="43.18" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8979,6 +8979,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="X_12" gate="G$1" pin="0"/>
+<wire x1="48.26" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

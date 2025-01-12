@@ -8803,12 +8803,22 @@ Source: &lt;a href="https://configured-product-images.s3.amazonaws.com/2D/specs/
 <wire x1="53.34" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 <label x="55.88" y="152.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="5"/>
+<wire x1="71.12" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
+<label x="68.58" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IN1" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="COM_1"/>
 <wire x1="22.86" y1="149.86" x2="17.78" y2="149.86" width="0.1524" layer="91"/>
 <label x="17.78" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="3"/>
+<wire x1="71.12" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
