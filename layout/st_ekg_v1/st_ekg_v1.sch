@@ -8451,6 +8451,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1Meg"/>
+<part name="X_12" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8465,31 +8467,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <attribute name="NAME" x="63.119" y="95.504" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="68.199" y="95.504" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C2" gate="G$1" x="91.44" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="91.059" y="92.964" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="96.139" y="92.964" size="1.778" layer="96" rot="R90"/>
+<instance part="C2" gate="G$1" x="91.44" y="93.98" smashed="yes">
+<attribute name="NAME" x="87.884" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.884" y="89.281" size="1.778" layer="96"/>
 </instance>
 <instance part="X_1" gate="G$1" x="58.42" y="96.52" smashed="yes" rot="R270"/>
-<instance part="X_2" gate="G$1" x="99.06" y="96.52" smashed="yes" rot="R90"/>
-<instance part="R1" gate="G$1" x="66.04" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.5414" y="102.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="69.342" y="102.87" size="1.778" layer="96" rot="R90"/>
+<instance part="X_2" gate="G$1" x="91.44" y="88.9" smashed="yes"/>
+<instance part="R1" gate="G$1" x="50.8" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.3014" y="102.87" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="54.102" y="102.87" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="66.04" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.5414" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="69.342" y="82.55" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="50.8" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.3014" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="54.102" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="53.34" y="101.6" smashed="yes">
-<attribute name="NAME" x="49.53" y="103.0986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.53" y="98.298" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="50.8" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.3014" y="92.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="54.102" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="78.74" y="111.76" smashed="yes">
 <attribute name="NAME" x="74.93" y="113.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.93" y="108.458" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="78.74" y="83.82" smashed="yes">
-<attribute name="NAME" x="74.93" y="85.3186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.93" y="80.518" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="78.74" y="81.28" smashed="yes">
+<attribute name="NAME" x="74.93" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.93" y="77.978" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="93.98" y="101.6" smashed="yes">
 <attribute name="NAME" x="90.17" y="103.0986" size="1.778" layer="95"/>
@@ -8526,11 +8528,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <attribute name="NAME" x="82.55" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.55" y="70.358" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="93.98" y="83.82" smashed="yes">
-<attribute name="NAME" x="90.17" y="85.3186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.17" y="80.518" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="101.6" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="103.0986" y="97.79" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="98.298" y="97.79" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="X_6" gate="G$1" x="99.06" y="83.82" smashed="yes" rot="R90"/>
+<instance part="X_6" gate="G$1" x="101.6" y="88.9" smashed="yes"/>
 <instance part="C6" gate="G$1" x="93.98" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.599" y="75.184" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="98.679" y="75.184" size="1.778" layer="96" rot="R90"/>
@@ -8592,6 +8594,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 </instance>
 <instance part="X_10" gate="G$1" x="99.06" y="147.32" smashed="yes" rot="R270"/>
 <instance part="X_11" gate="G$1" x="101.6" y="121.92" smashed="yes"/>
+<instance part="R15" gate="G$1" x="55.88" y="43.18" smashed="yes">
+<attribute name="NAME" x="52.07" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="39.878" size="1.778" layer="96"/>
+</instance>
+<instance part="X_12" gate="G$1" x="48.26" y="43.18" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8605,7 +8612,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="X_2" gate="G$1" pin="0"/>
-<wire x1="96.52" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X_3" gate="G$1" pin="0"/>
@@ -8658,15 +8664,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <pinref part="X_11" gate="G$1" pin="0"/>
 <wire x1="101.6" y1="124.46" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="X_12" gate="G$1" pin="0"/>
+<wire x1="48.26" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<label x="48.26" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<junction x="66.04" y="101.6"/>
+<junction x="50.8" y="101.6"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -8684,29 +8695,28 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <segment>
 <pinref part="IC1" gate="G$1" pin="6"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="101.6" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<junction x="66.04" y="91.44"/>
+<junction x="50.8" y="91.44"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="12"/>
-<wire x1="86.36" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="99.06" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<junction x="88.9" y="83.82"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="81.28" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
+<junction x="96.52" y="99.06"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
 <junction x="68.58" y="111.76"/>
 <wire x1="68.58" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="111.76" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
@@ -8718,13 +8728,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <segment>
 <pinref part="IC1" gate="G$1" pin="7"/>
 <wire x1="68.58" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="83.82" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="81.28" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<junction x="68.58" y="83.82"/>
+<wire x1="50.8" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<junction x="68.58" y="81.28"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8735,9 +8744,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <wire x1="99.06" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="3"/>
 <wire x1="71.12" y1="63.5" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="78.74" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="78.74" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="99.06" y="104.14"/>
 </segment>
 </net>
@@ -8837,6 +8846,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <wire x1="60.96" y1="43.18" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<junction x="60.96" y="43.18"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -8895,7 +8906,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SJ1-3523N.pdf
 <segment>
 <pinref part="IC1" gate="G$1" pin="11"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <label x="86.36" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
